@@ -7,8 +7,9 @@ object Version {
 }
 
 object Library {
-  val vertxCodegen   = "io.vertx"       %  "vertx-codegen"    % Version.Vertx     % "provided"
-  val vertxLangScala = "io.vertx"       %% "vertx-lang-scala" % Version.Vertx
-  val vertxWeb       = "io.vertx"       %% "vertx-web-scala"  % Version.Vertx
-  val scalaTest      = "org.scalatest"  %% "scalatest"        % Version.ScalaTest
+  val vertxCodegen   = "io.vertx"       %  "vertx-codegen"          % Version.Vertx     % "provided"
+  val vertxLangScala = "io.vertx"       %% "vertx-lang-scala"       % Version.Vertx
+  val vertxHazelcast = "io.vertx"       %% "vertx-hazelcast"        % Version.Vertx
+  val vertxWeb       = "io.vertx"       %% "vertx-web-scala"        % Version.Vertx
+  val scalaTest      = "org.scalatest"  %% "scalatest"              % Version.ScalaTest
 }
