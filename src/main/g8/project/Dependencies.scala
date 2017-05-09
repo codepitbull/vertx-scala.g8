@@ -7,7 +7,6 @@ object Version {
 }
 
 object Library {
-  //required to get rid of some warnings emitted by the scala-compile
   val vertxCodegen   = "io.vertx"       %  "vertx-codegen"    % Version.Vertx     % "provided"
   val vertxLangScala = "io.vertx"       %% "vertx-lang-scala" % Version.Vertx
   val vertxWeb       = "io.vertx"       %% "vertx-web-scala"  % Version.Vertx
