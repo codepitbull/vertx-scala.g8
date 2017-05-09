@@ -28,7 +28,7 @@ assemblyMergeStrategy in assembly := {
 dockerfile in docker := {
   // The assembly task generates a fat JAR file
   val artifact: File = assembly.value
-  val artifactTargetPath = s"/app/${artifact.name}"
+  val artifactTargetPath = s"/app/\${artifact.name}"
 
   new Dockerfile {
     from("frolvlad/alpine-oraclejdk8:slim")
