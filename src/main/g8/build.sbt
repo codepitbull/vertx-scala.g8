@@ -4,6 +4,9 @@ import Docker.autoImport.exposedPorts
 
 scalaVersion := "2.12.1"
 
+resolvers +=
+  "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
+
 enablePlugins(DockerPlugin)
 exposedPorts := Seq(8666)
 
