@@ -1,3 +1,5 @@
+package $package$
+
 import io.vertx.lang.scala.ScalaVerticle
 import io.vertx.scala.ext.web.Router
 

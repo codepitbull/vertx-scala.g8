@@ -1,3 +1,5 @@
+package $package$
+
 import org.scalatest.Matchers
 
 import scala.concurrent.Promise

@@ -1,3 +1,5 @@
+package $package$
+
 import org.scalatest._
 
 class BusVerticleSpec extends VerticleTesting[BusVerticle] with Matchers {

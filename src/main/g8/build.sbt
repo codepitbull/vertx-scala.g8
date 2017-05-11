@@ -19,5 +19,5 @@ libraryDependencies ++= Vector (
 )
 
 packageOptions += ManifestAttributes(
-  ("Main-Verticle", "scala:HttpVerticle"))
+  ("Main-Verticle", "scala:$package$.HttpVerticle"))
 
