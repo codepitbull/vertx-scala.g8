@@ -8,14 +8,14 @@ enablePlugins(DockerPlugin)
 exposedPorts := Seq(8666)
 
 libraryDependencies ++= Vector (
-  Library.vertxLangScala,
-  Library.vertxWeb,
+  Library.vertx_lang_scala,
+  Library.vertx_web,
   Library.scalaTest       % "test",
   // Uncomment for clustering
-  // Library.vertxHazelcast,
+  // Library.vertx_hazelcast,
 
   //required to get rid of some warnings emitted by the scala-compile
-  Library.vertxCodegen
+  Library.vertx_codegen
 )
 
 packageOptions += ManifestAttributes(
